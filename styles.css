@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Cooper-Light;
+    src: url(fonts/cooperl.ttf);
+}
+@font-face {
+    font-family: Cooper-Light-Italic;
+    src: url(fonts/cooperli.ttf);
+}
+@font-face {
+    font-family: Cooper-Medium;
+    src: url(fonts/cooperm.ttf);
+}
+@font-face {
+    font-family: Cooper-Medium-Italic;
+    src: url(fonts/coopermi.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin: 5px;
+    font-family: 'Cooper-Light', Times;
+    font-size: 15px;
+    line-height: 17px;
+}
+a {
+    color: black;
+}
+a:visit {
+    color: black;
+}
+a:hover {
+    color: white;
+    background: black;
+}
+i {
+    font-family: "Cooper-Light-Italic", Times;
+    letter-spacing: .5px;
+    font-style: normal;
+}
+b {
+    font-family: 'Cooper-Medium';
+}
+h1 {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Cooper-Medium';
+}
+h2 {
+    font-size: 14px;
+    font-weight: 700;
+}
+header {
+    padding-bottom: 20px;
+}
+nav {
+    padding-bottom: 20px;
+}
+.divider {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.syllabus {
+    display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: baseline;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.syllabus h3 {
+    width: 15%;
+    font-size: 14px;
+    font-weight: 700;
+}
+.class {
+    width: 50%;
+}
+
+/* MOBILE
+----------------------------------- */
+@media only screen and (max-width: 715px) {
+    .syllabus {
+        display: block;
+    }
+    .syllabus h3 {
+        width: 100%;
+    }
+    .class {
+        width: 100%;
+    }
