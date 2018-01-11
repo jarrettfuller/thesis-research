@@ -78,6 +78,9 @@ nav {
 .class {
     width: 50%;
 }
+img {
+    max-width: 800px;
+}
 
 /* MOBILE
 ----------------------------------- */
@@ -91,3 +94,6 @@ nav {
     .class {
         width: 100%;
     }
+img {
+    width: 90%;
+}
